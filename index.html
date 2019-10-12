@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ayydeji</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="static/bulma-timeline.min.css">
+    <link rel="stylesheet" href="static/main.css">
+    <script src="static/main.js"></script>
+  </head>
+  <body>
+    <section class="hero is-fullheight is-fullwidth has-background">
+    <!-- Hero head: will stick at the top -->
+    <div class="hero-head">
+      <header class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item" href="">
+            <p class="has-text-danger"><b>AYYDEJI</b></p>
+          </a>
+            <span class="navbar-burger burger has-text-dark" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active')">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenuHeroC" class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item" href="#aboutme">
+                <p><b>ABOUT ME</b></p>
+              </a>
+              <a class="navbar-item" href="#recentwork">
+                <p><b>RECENT WORK</b></p>
+              </a>
+              <a class="navbar-item" href="#experiences">
+                <p><b>EXPERIENCES</b></p>
+              </a>
+              <a class="navbar-item" href="#contactme">
+                <p><b>CONTACT ME</b></p>
+              </a>
+              <span class="navbar-item">
+                  <span class="icon">
+                    <a href="https://github.com/ayydeji"><i class="fab fa-github fa-2x"></i></a>
+                  </span>
+                  &nbsp &nbsp &nbsp
+                  <span class="icon">
+                    <a href="https://www.linkedin.com/in/abdullah-muhammad-kamal-2a1677167/"><i class="fab fa-linkedin fa-2x"></i></a>
+                  </span>
+                  &nbsp &nbsp &nbsp
+                  <span class="icon">
+                    <a href='static/Muhammad-Kamal,Abdullah_CV.pdf'><i class="fas fa-file-pdf fa-2x"></i></a>
+                  </span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <!-- Hero content: will be in the middle -->
+    <div class="hero-body">
+      <div class="container has-text-centered">
+          <img style="border-radius: 50%;" src="images/profile.jpg" width="200px" height="200px"/><br><br>
+        <h1 class="title is-1">
+          Hi, I'm Abdullah
+        </h1>
+        <p class="has-text-dark">I'm a Computer Science and Management student at the University of Warwick,<br>currently interning at King Abdullah University of Science and Technology.</p><br>
+        <a  class="button is-danger is-outlined" href="#aboutme" >
+                Learn More &nbsp
+                <i class="fas fa-angle-down"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="section has-background-light" id="aboutme">
+    <div class="container">
+      <h2 class="subtitle has-text-danger has-text-centered"><b>ABOUT ME</b></h2>
+      <!-- <h2 class="subtitle is-4 has-text-centered"><b>Get To Know Me...</b></h2><br> -->
+      <div class="columns">
+  <div class="column">
+    <h2 class="subtitle is-5 has-text-centred"><b>MY PROFILE</b></h2>
+    <p><b>Name</b></p>
+    <p>Abdullah Muhammad-Kamal</p><br>
+    <p><b>Current Location</b></p>
+    <p>London, United Kingdom</p><br>
+    <p><b>University</b></p>
+    <p>Warwick University</p><br>
+    <p><b>Course of Study</b></p>
+    <p>Computer and Management Sciences (BSc Hons)</p><br>
+    <p><b>Year of Study</b></p>
+    <p>Placement Year</p><br>
+    <p><b>Email Address</b></p>
+    <p>abdulmkamal@hotmail.com</p><br>
+  </div>
+  <div class="column">
+    <h2 class="subtitle is-5"><b>MY SKILLS</b></h2>
+    <p><b>JAVA</b></p>
+    <progress class="progress is-danger" value="75" max="100">75%</progress>
+    <p><b>Python</b></p>
+    <progress class="progress is-danger" value="75" max="100">75%</progress>
+    <p><b>HTML5</b></p>
+    <progress class="progress is-danger" value="90" max="100">90%</progress>
+    <p><b>CSS</b></p>
+    <progress class="progress is-danger" value="90" max="100">90%</progress>
+    <p><b>PHP</b></p>
+    <progress class="progress is-danger" value="65" max="100">65%</progress>
+    <p><b>SQL</b></p>
+    <progress class="progress is-danger" value="75" max="100">75%</progress>
+    <p><b>BULMA Framework</b></p>
+    <progress class="progress is-danger" value="80" max="100">80%</progress>
+  </div>
+</div>
+    </div>
+
+  </section>
+  <section class="section">
+  <div class="container" id="recentwork">
+    <h2 class="subtitle has-text-danger has-text-centered"><b>MY RECENT WORK</b></h2>
+    <!-- <h2 class="subtitle is-4 has-text-centered"><b>What I am up to...</b></h2><br> -->
+
+    <div class="columns">
+  <div class="column">
+    <div class="kaust">
+    <img src="images/logok.png" alt="kaust" class="image">
+    <div class="overlay">
+      <div class="text">
+        <h1 class="title is-size-4">VSRP Intern</h1>
+        <p>Visiting Student Research Programme Intern at King Abdullah University of Science and Technology</p>
+       </div>
+</div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="kaust">
+    <img src="images/cieve.png" alt="profile" class="image">
+    <div class="overlay">
+      <a href="http://cieve.eu-west-2.elasticbeanstalk.com/"></a><div class="text">
+        <h1 class="title is-size-4">Deutsche Bank Enginnering Project</h1>
+        <p>Machine Learning Application Tracker </p>
+      </div></a>
+</div>
+    </div>
+  </div>
+
+  </div>
+</div>
+</section><br>
+    <section class="section has-background-light"><br>
+      <div class="container" id="experiences">
+      <h2 class="subtitle has-text-danger has-text-centered"><b>MY RESUME</b></h2>
+      <h2 class="subtitle is-4 has-text-centered"><b>(CLICK FOR MORE INFORMATION)</b></h2><br>
+
+      <div class="timeline is-centered">
+  <header class="timeline-header">
+    <span class="tag is-medium is-primary">2016</span>
+  </header>
+  <div class="timeline-item is-primary">
+    <div class="timeline-marker is-primary"></div>
+    <div class="timeline-content" id="showModal1">
+      <p class="heading">August 2016</p>
+      <p><b>UBM</b> | Events Planning Work Experience</p>
+    </div>
+    <div class="modal" id="modal1">
+  <div class="modal-background"></div>
+  <div class="modal-content">
+    <div class="box content">
+      <h1> UBM EVENTS INTERN</h1>
+<p>In the summer of 2016, I was selected to be an intern at UBM. During this experience we were tasked to build an event of our own from scratch. This was both a theoretical and practical experience such that we were taught of the different aspects of events planning and then had to implement them immediately to our product.</p>
+<br>
+<p> I led my team in building an event to showcase the upcoming talent in the FinTech industry. I chose this as, at the time, it was in FinTech that the most exciting technological advancements were occurring. My first duty was to work out the strengths of each member of my team, in doing this I could then assign roles which gave me manpower optimisation. During the experience, we documented all of our progress using Microsoft Office; Excel for our event financial planning and Powerpoint for our final presentation to a board of senior members of the firm. </p>
+<br>
+<p> The result of the project was that my team was placed first out of the eight other teams in the programme.</p>
+<br>
+<span class="tag">Business Analysis</span>
+  <span class="tag">Teamwork</span>
+  <span class="tag">Event Planning</span>
+    <span class="tag">Microsoft Excel</span>
+  <span class="tag">Microsoft PowerPoint</span>
+  <span class="tag">Public Speaking</span>
+  <span class="tag">Project Management</span>
+    </div>
+  </div>
+  <button class="modal-close" id="modal-close1"></button>
+</div>
+    </div>
+
+
+  <header class="timeline-header">
+    <span class="tag is-primary">2018</span>
+  </header>
+  <div class="timeline-item is-primary">
+  <div class="timeline-marker is-primary"></div>
+    <div class="timeline-content" id="showModal2">
+      <p class="heading">October 2018 – April 2019 </p>
+      <p><b>WARWICK AFRICA SUMMIT</b> | Events Team Executive </p>
+    </div>
+    <div class="modal" id="modal2">
+  <div class="modal-background"></div>
+  <div class="modal-content">
+    <div class="box content">
+      <h1> WARWICK AFRICA SUMMIT EVENTS EXECUTIVE</h1>
+<p> During my second year at the University of Warwick I was an Events Executive at Warwick Africa Summit. This is a society to arrange a two-day conference on the social and economic development of Africa, hosting 500+ attendees and 20+ speakers. These speakers included The Second Lady of Ghana and previously Aliko Dangote.</p>
+<br>
+<p>As an events executive my main role was to create events, throughout the year, educating people on the current state of Africa to drive ticket sales for the conference. In addition to this, I was also responsible for acquiring African talent for a showcase/gala in between the first and second day of the summit. The aim of this was to display the talent of students at Warwick to our large array of High-profile speakers, driving through our positive outlook on the future of Africa.</p>
+<br>
+<p>Being primarily a computer science student, an additional role I took upon myself was to innovate old processes used in the summit. For example, the older marketing strategy included a great emphasis on face to face marketing. Understanding that as students we are less inclined towards this, I worked very closely with the marketing team to create a digital marketing campaign through social media and our society website.</p>
+<br>
+<p> The outcome of this is that we were able to sell out of tickets two weeks before the summit took place and following the summit we received a high satisfaction rating from our attendees and speakers.</p>
+
+<span class="tag">Event Planning</span>
+  <span class="tag">Teamwork</span>
+  <span class="tag">Project Management</span>
+  <span class="tag">Digital Marketing</span>
+  <span class="tag">Recruitment</span>
+  <span class="tag">Public Speaking</span>
+    </div>
+  </div>
+  <button class="modal-close" id="modal-close2"></button>
+  </div>
+  </div>
+  <header class="timeline-header">
+    <span class="tag is-primary">2019</span>
+  </header>
+  <div class="timeline-item is-primary">
+    <div class="timeline-marker is-danger">
+    </div>
+    <div class="timeline-content" id="showModal3">
+      <p class="heading">November 2018 – December 2019  </p>
+      <p><b>DEPARTMENT STORE DATABASE MANAGEMENT APPLICATION</b></p>
+    </div>
+    <div class="modal" id="modal3">
+  <div class="modal-background"></div>
+  <div class="modal-content">
+    <div class="box content">
+      <h1> DEPARTMENT STORE DATABASE MANAGEMENT APPLICATION</h1>
+<p>This is an application I created during my second year at the University of Warwick. I aimed to extend the services provided by a department store with this. The functionalities include:</p>
+<ol>
+ <li>In-Store purchases entry</li>
+ <li>Collection purchases entry</li>
+ <li>Delivery  purchases entry</li>
+ <li>Biggest Sellers</li>
+ <li>Reserved Stock</li>
+ <li>Staff Life-Time Success</li>
+ <li>Staff Contribution</li>
+ <li>Employee of the Year</li>
+</ol>
+<br>
+<p style="color:grey;"> The Option Menu </p>
+<img src="images/database_menu.png" />
+<p style="color:grey;"> Bad Date Error Handelling</p>
+<img src="images/error_handeling.png" />
+<p style="color:grey;"> Query example for option 6 </p>
+<img src="images/join_example.png" />
+
+<span class="tag">JAVA</span>
+  <span class="tag">SQL</span>
+  <span class="tag">Java JDBC</span>
+    </div>
+  </div>
+  <button class="modal-close" id="modal-close3"></button>
+  </div>
+  </div>
+  <div class="timeline-item is-primary">
+    <div class="timeline-marker is-danger">
+    </div>
+    <div class="timeline-content" id="showModal4">
+      <p class="heading">January 2019 – March 2019  </p>
+      <p><b>SMART APPLICANT TRACKING SYSTEM</b></p>
+    </div>
+    <div class="modal" id="modal4">
+  <div class="modal-background"></div>
+  <div class="modal-content">
+    <div class="box content">
+      <h1 class="title">SMART APPLICANT TRACKING SYSTEM</h1>
+      <p>
+
+        During the second term of my second year, at The University of Warwick, I was part of a five-man team in building an Applicant tracking system for Deutsche Bank. This was a smart system so we had to develop a machine learning strategy to rank applicants based on the skills displayed on their CV. <br> <br>
+
+My main role during this project was as the business analyst and the front-end development team. As a business analyst, I was responsible for: <br></p>
+<ul>
+	<li>Understanding the clients current environment: needs and concerns </li>
+	<li>Leading client consultation meetings to gain a greater understanding of the problems with their current system and what new features they are looking to include </li>
+	<li>Selected solutions that delivered the most value based on factors such as scope, risk and reusability and capabilities</li>
+</ul>
+<p> As a front end team member I was reponsible for: </p>
+<ul>
+ 	<li> Creating the UX design for the website </li>
+	<li> Deciding on the best technologies for the front-end of the website.</li>
+	<li> Developing the website using HTML, CSS, jQuery and the BULMA CSS framework.</li>
+</ul>
+<p>The outcome of this project is that my team were placed second out of a pool of thirty two teams.</p><br>
+<a href="cieve.ml">Click to view</a><br>
+
+  <span class="tag">Business Analysis</span>
+  <span class="tag">Teamwork</span>
+  <span class="tag">HTML</span>
+  <span class="tag">CSS</span>
+  <span class="tag">jQuery</span>
+  <span class="tag">BULMA</span>
+  <span class="tag">Python</span>
+  <span class="tag">Project Management</span>
+
+
+      </p>
+    </div>
+  </div>
+  <button class="modal-close" id="modal-close4"></button>
+  </div>
+  </div>
+  <div class="timeline-item is-primary">
+    <div class="timeline-marker is-primary">
+    </div>
+    <div class="timeline-content" id="showModal5">
+      <p class="heading">March 2019 – April 2019 </p>
+      <p><b>TEACH FIRST</b> | Insight Programme Intern</p>
+    </div>
+    <div class="modal" id="modal5">
+  <div class="modal-background"></div>
+  <div class="modal-content">
+    <div class="box content">
+      <h1 class="title">TEACH FIRST INSIGHT PROGRAMME INTERN</h1>
+<p>During the 2019 easter break from university I had the pleasure of being part of the 2019 cohort for the Teach First insight programme. This was an experience where I was able to engage with and understand the STEM challenge affecting UK schools. </p><br>
+<p>During the first week of the experience, the focus was to understand the reason behind children straying away from STEM subject and careers. whilst theoretically developing my leadership and teaching skills to be able to inspire the students and give them a better understanding of the subjects they are struggling with.</p><br>
+<p>During the second week of the programme I was a staff member at Logic Studio School in West London, during this time my main responsibilities were:</p>
+<ul>
+	<li>Teaching children aged 11-16 Database concepts and the Python programming language</li>
+	<li>Leading teams of students in business development challenges</li>
+	<li>Giving talks to children on STEM university courses and careers </li>
+</ul>
+
+<span class="tag">Leadership</span>
+<span class="tag">Public Speaking</span>
+<span class="tag">Teaching</span>
+<span class="tag">Teamwork</span>
+    </div>
+  </div>
+  <button class="modal-close" id="modal-close5"></button>
+</div>
+  </div>
+  <div class="timeline-item is-primary">
+    <div class="timeline-marker is-danger">
+    </div>
+    <div class="timeline-content" id="showModal6">
+      <p class="heading">September 2019 – Present </p>
+      <p><b>KING ABDULLAH UNIVERSITY SAUDI ARABIA</b> | VSRP Intern</p>
+    </div>
+    <div class="modal" id="modal6">
+  <div class="modal-background"></div>
+  <div class="modal-content">
+    <div class="box content">
+      <h1 class="title">VISITING STUDENT RESEARCH PROGRAMME INTERN</h1>
+      <p> In the academic year 2019/20, I will be interning at King Abdullah University of Science and Technology, my position during this time is as a Visiting Student Research Programme Intern. I will be working as part of the Bio-Ontology Research Group.</p><br>
+
+      <p>Specifically, during this time I will be working pharmaceutical data: PharmaGKB, VMH and STRING. I will be displaying this data as RDF graphs and joining them to gain insight on how different gene varients affect the phenotype of drugs.</p><br>
+
+      <p>My aim later on in the project is to develop machine learning methods to be able to predict the effect variants can have on drugs.</p>
+
+      <span class="tag">Python</span>
+      <span class="tag">R</span>
+      <span class="tag">Data Analysis</span>
+      <span class="tag">Machine Learning</span>
+      <span class="tag">BioInformatics</span>
+
+    </div>
+  </div>
+  <button class="modal-close" id="modal-close6"></button>
+</div>
+  </div>
+  <header class="timeline-header">
+    <span class="tag is-medium is-primary">Present</span>
+  </header>
+</div>
+
+      </div>
+    </section>
+
+    <section class="section hero is-dark contact">
+        <div class="container">
+                <h2 class="subtitle has-text-danger has-text-centered" id="contactme"><b>CONTACT ME</b></b></h2>
+        </div>
+        <!-- www.123formbuilder.com script begins here -->
+<script type="text/javascript" defer src="//www.123formbuilder.com/embed/5068887.js" data-role="form" data-default-width="650px"></script>
+<!-- www.123formbuilder.com script ends here -->
+    </section>
+
+  </body>
+
+  <script type="text/javascript">
+
+    document.addEventListener('DOMContentLoaded', () => {
+
+  // Get all "navbar-burger" elements
+  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+  // Check if there are any navbar burgers
+  if ($navbarBurgers.length > 0) {
+
+    // Add a click event on each of them
+    $navbarBurgers.forEach( el => {
+      el.addEventListener('click', () => {
+
+        // Get the target from the "data-target" attribute
+        const target = el.dataset.target;
+        const $target = document.getElementById(target);
+
+        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+        el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+
+      });
+    });
+  }
+
+});
+
+$("#showModal1").click(function() {
+  $("#modal1").addClass("is-active");
+});
+
+$("#modal-close1").click(function() {
+   $("#modal1").removeClass("is-active");
+});
+
+$("#showModal2").click(function() {
+  $("#modal2").addClass("is-active");
+});
+
+$("#modal-close2").click(function() {
+   $("#modal2").removeClass("is-active");
+});
+
+$("#showModal3").click(function() {
+  $("#modal3").addClass("is-active");
+});
+
+$("#modal-close3").click(function() {
+   $("#modal3").removeClass("is-active");
+});
+
+$("#showModal4").click(function() {
+  $("#modal4").addClass("is-active");
+});
+
+$("#modal-close4").click(function() {
+   $("#modal4").removeClass("is-active");
+});
+
+$("#showModal5").click(function() {
+  $("#modal5").addClass("is-active");
+});
+
+$("#modal-close5").click(function() {
+   $("#modal5").removeClass("is-active");
+});
+
+$("#showModal6").click(function() {
+  $("#modal6").addClass("is-active");
+});
+
+$("#modal-close6").click(function() {
+   $("#modal6").removeClass("is-active");
+});
+
+  </script>
+</html>
