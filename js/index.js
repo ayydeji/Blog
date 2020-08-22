@@ -13,11 +13,11 @@ $(window).on("load", function () {
             t = o + $(window).height();
         return e > o && i < t;
     }),
-    $(window).on("scroll resize", function () {
-        $(".about-me").each(function () {
-            $(this).isInViewport() && $(this).fadeIn(1500);
-        });
-    });
+    // $(window).on("scroll resize", function () {
+    //     $(".about-me").each(function () {
+    //         $(this).isInViewport() && $(this).fadeIn(1500);
+    //     });
+    // });
 
 $(".more-button").on("click", function(){
   $(".proj-more").toggleClass("invisible");

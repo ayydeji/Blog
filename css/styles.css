@@ -31,6 +31,10 @@
   }
 }
 
+.col{
+  margin-bottom: 5%;
+}
+
 body {
   background-color: #e3c5aa
 }
@@ -193,17 +197,18 @@ hr {
 }
 
 #about {
-  height: 85vh
 }
+
+
 
 .white {
   color: #fff;
   cursor: pointer
 }
 
-.about-me {
-  display: none
-}
+/*.about-me {*/
+/*  display: none*/
+/*}*/
 
 .about-exp {
   font-size: 90%;
@@ -245,7 +250,7 @@ hr {
    width: 20%;
    font-size: 150%;
    font-family: 'Bebas Neue', cursive;
-   background-color: #412025;
+   background-color: #D1A075;
    border: none;
  }
 
@@ -254,7 +259,13 @@ hr {
 }
 
 .languages {
-  color: #7D6167
+  color: white;
+  font-weight: bold;
+}
+
+.badge-primary{
+  background-color: #D1A075;
+  color: #412025;
 }
 
 .header {
