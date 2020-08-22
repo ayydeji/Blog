@@ -21,7 +21,7 @@ $(window).on("load", function () {
 
 $(".more-button").on("click", function(){
   $(".proj-more").toggleClass("invisible");
-  $(this).css("background-color", "#412025");
+  $(this).css("background-color", "#D1A075");
   if ($(".proj-more").hasClass("invisible")){
     $(".more-button").html("More Projects");
   }else{
